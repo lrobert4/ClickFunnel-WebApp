@@ -16,7 +16,7 @@ function Share() {
             <div role="listitem" class="item">
               <i aria-hidden="true" class="marker icon"></i>
               <div class="content">
-                <a class="header">Krowlewskie Jadlo</a>
+                <a class="header">Step #1</a>
                 <div class="description">
                   An excellent polish restaurant, quick delivery and hearty, filling meals.
                 </div>
@@ -25,7 +25,7 @@ function Share() {
             <div role="listitem" class="item">
               <i aria-hidden="true" class="marker icon"></i>
               <div class="content">
-                <a class="header">Xian Famous Foods</a>
+                <a class="header">Step #2</a>
                 <div class="description">
                   A taste of Shaanxi&#x27;s delicious culinary traditions, with delights like spicy cold
                   noodles and lamb burgers.
@@ -35,14 +35,14 @@ function Share() {
             <div role="listitem" class="item">
               <i aria-hidden="true" class="marker icon"></i>
               <div class="content">
-                <a class="header">Sapporo Haru</a>
+                <a class="header">Step #3</a>
                 <div class="description">Greenpoint&#x27;s best choice for quick and delicious sushi.</div>
               </div>
             </div>
             <div role="listitem" class="item">
               <i aria-hidden="true" class="marker icon"></i>
               <div class="content">
-                <a class="header">Enid&#x27;s</a>
+                <a class="header">Step #4</a>
                 <div class="description">At night a bar, during the day a delicious brunch spot.</div>
               </div>
             </div>
