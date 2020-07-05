@@ -5,9 +5,13 @@ function Share() {
   return (
     <div className="ui container">
       <h1 className="ui center aligned container">Share Now To Get Discount!</h1>
+      <div className="ui center aligned container">
+      <button class="ui huge button">Share on Whatsapp!</button>
+      </div>
       <h4 className="ui center aligned container">Instructions for coupon code:</h4>
+      
 
-      <div className="">
+      <div className="ui text container">
             <div role="list" class="ui list">
             <div role="listitem" class="item">
               <i aria-hidden="true" class="marker icon"></i>
