@@ -13,8 +13,8 @@ function Share() {
 
       <div className="ui text container">
             <div role="list" class="ui list">
-            <div role="listitem" class="item">
-              <i aria-hidden="true" class="marker icon"></i>
+            <div role="listitem" class="item ui center aligned container">
+              
               <div class="content">
                 <a class="header">Step #1</a>
                 <div class="description">
@@ -22,8 +22,8 @@ function Share() {
                 </div>
               </div>
             </div>
-            <div role="listitem" class="item">
-              <i aria-hidden="true" class="marker icon"></i>
+            <div role="listitem" class="item ui center aligned container">
+              
               <div class="content">
                 <a class="header">Step #2</a>
                 <div class="description">
@@ -32,15 +32,15 @@ function Share() {
                 </div>
               </div>
             </div>
-            <div role="listitem" class="item">
-              <i aria-hidden="true" class="marker icon"></i>
+            <div role="listitem" class="item ui center aligned container">
+              
               <div class="content">
                 <a class="header">Step #3</a>
                 <div class="description">Greenpoint&#x27;s best choice for quick and delicious sushi.</div>
               </div>
             </div>
-            <div role="listitem" class="item">
-              <i aria-hidden="true" class="marker icon"></i>
+            <div role="listitem" class="item ui center aligned container">
+              
               <div class="content">
                 <a class="header">Step #4</a>
                 <div class="description">At night a bar, during the day a delicious brunch spot.</div>

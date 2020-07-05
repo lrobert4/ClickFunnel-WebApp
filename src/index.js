@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Questions from './questionaire/Question';
-import Share from './share/Share';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import App from './App';
+import './index.css';
+
+
+
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
-    <Questions />
-    <Share />
+    <Route path="/" component={App} exact />
+    <Route path="/questions" component={Questions} />
   </BrowserRouter>,
   document.getElementById('root')
 );
