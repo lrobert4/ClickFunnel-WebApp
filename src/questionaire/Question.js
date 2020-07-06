@@ -1,14 +1,15 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
+import { Button } from 'semantic-ui-react'
 
 function Question() {
   return (
     <div className="ui container">
       <h1 className="ui center aligned container">Question</h1>
-      <p className="ui center aligned container">How many mask have you bought since the COVID-19 pandemic started?</p>
+      <p className="ui center aligned container">Are you 18 years or older?</p>
       <div className="ui center aligned container">
-      <button class="ui huge button">Option #1</button>
-      <button class="ui huge button">Option #2</button>
+      <Button class="ui huge button">No, I'm under 18 </Button>
+      <Link to="/share"><Button class="ui huge button">Yes, I'm older than 18 </Button></Link>
       </div>
     </div>
   );

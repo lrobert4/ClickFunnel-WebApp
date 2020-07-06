@@ -16,7 +16,7 @@ function Share() {
             <div role="listitem" class="item ui center aligned container">
               
               <div class="content">
-                <a class="header">Step #1</a>
+                <h4 class="header">Step #1</h4>
                 <div class="description">
                   An excellent polish restaurant, quick delivery and hearty, filling meals.
                 </div>
@@ -25,7 +25,7 @@ function Share() {
             <div role="listitem" class="item ui center aligned container">
               
               <div class="content">
-                <a class="header">Step #2</a>
+                <h4 class="header">Step #2</h4>
                 <div class="description">
                   A taste of Shaanxi&#x27;s delicious culinary traditions, with delights like spicy cold
                   noodles and lamb burgers.
@@ -35,14 +35,14 @@ function Share() {
             <div role="listitem" class="item ui center aligned container">
               
               <div class="content">
-                <a class="header">Step #3</a>
+                <h4 class="header">Step #3</h4>
                 <div class="description">Greenpoint&#x27;s best choice for quick and delicious sushi.</div>
               </div>
             </div>
             <div role="listitem" class="item ui center aligned container">
               
               <div class="content">
-                <a class="header">Step #4</a>
+                <h4 class="header">Step #4</h4>
                 <div class="description">At night a bar, during the day a delicious brunch spot.</div>
               </div>
             </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Questions from './questionaire/Question';
+import Share from './share/Share';
 import App from './App';
 import './index.css';
 
@@ -13,6 +14,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Route path="/" component={App} exact />
     <Route path="/questions" component={Questions} />
+    <Route path="/share" component={Share} />
   </BrowserRouter>,
   document.getElementById('root')
 );
