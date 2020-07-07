@@ -1,12 +1,14 @@
 import React from 'react';
-
+import { Button } from 'semantic-ui-react'
 
 function Share() {
   return (
     <div className="ui container">
       <h1 className="ui center aligned container">Share Now To Get Discount!</h1>
       <div className="ui center aligned container">
-      <button class="ui huge button">Share on Whatsapp!</button>
+      <a href="https://api.whatsapp.com/send?text=Get%20Your%20Anti-Bacterial%20Mask%20Here: https://bellibelle.com/collections/covid-19/products/antibacterial-masks-with-copper-fabric-backing">
+        <Button class="ui huge button">Share on Whatsapp!</Button>
+        </a>
       </div>
       <h4 className="ui center aligned container">Instructions for coupon code:</h4>
       
